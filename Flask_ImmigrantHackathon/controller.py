@@ -9,10 +9,10 @@ import requests,httplib,urllib,time
 import os,math, json
 import pdb
 
-GOOGLE_MAPS_API_KEY = "AIzaSyBA_jfZcH5OvgwsA2ThIzf7drDaTKzKiAk"
+GOOGLE_MAPS_API_KEY = ""
 
-PUSHOVER_USERKEY = "utTptvSpVy69q1u4wyj9sm4zAuwr9p"
-PUSHOVER_APIKEY = "avq9vguffqyibm9zb6b5xmb9gehe5o"
+PUSHOVER_USERKEY = ""
+PUSHOVER_APIKEY = ""
 
 def alert(title, messages):
     conn = httplib.HTTPSConnection("api.pushover.net:443")

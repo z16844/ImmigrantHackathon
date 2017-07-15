@@ -1,0 +1,15 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+	"build_systems":
+	[
+		{
+			"name": "Run Server",
+			"cmd": ["${project_path}/env/bin/python","-u","${project_path}/runserver.py"]
+		}
+	]
+}
